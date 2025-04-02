@@ -161,28 +161,16 @@ SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1"
 
 
-# Google Drive file ID of your YOLO model (you can get this from the shareable link)
-MODEL_URL = "https://drive.google.com/uc?id=1BnrSonlOK92ZSf50hHKrk-NCHsIXe0BW"
 
+# Path to the YOLO model in your GitHub repository
+MODEL_PATH = "Yolo-Weights/best.pt"
 
+# Check if the model exists
+if not os.path.exists(MODEL_PATH):
+    raise FileNotFoundError(f"Model file '{MODEL_PATH}' not found. Make sure it's in your GitHub repository.")
 
-
-
-# Function to download YOLO model weights from Google Drive
-
-
-def download_model():
-    output_path = "Yolo-Weights"  # Absolute path in Render's environment
-    os.makedirs(output_path, exist_ok=True)  # Ensure the directory exists
-    gdown.download(MODEL_URL, os.path.join(output_path, "best.pt"), quiet=False)
-
-# Modify your YOLO initialization to download the model if not already present
-if not os.path.exists("../Yolo-Weights"):
-    print("Downloading YOLO model...")
-    download_model()
-
-# Initialize YOLO model
-model = YOLO("Yolo-Weights/best.pt")
+# Load the YOLO model
+model = YOLO(MODEL_PATH)
 classNames = ["anger", "fear", "happy", "neutral", "sad", "surprise"]
 
 
