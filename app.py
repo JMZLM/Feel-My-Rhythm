@@ -151,14 +151,15 @@ emotion_to_search_term = {
 
 
 # Spotify API credentials
-CLIENT_ID = os.getenv('CLIENT_ID')
-CLIENT_SECRET = os.getenv('CLIENT_SECRET')
-REDIRECT_URI = os.getenv('REDIRECT_URI')
+CLIENT_ID = 'fdfcbb82df104a2ea67df35410eed1f6'
+CLIENT_SECRET = '3280a9e0b5804025bcff0d5367eec8eb'
+REDIRECT_URI = 'http://192.168.1.21:8080/callback'
 
 # Spotify URLs
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1"
+
 
 
 
@@ -179,6 +180,14 @@ detected_emotion = None
 emotion_songs = []
 current_song_index = 0
 is_paused = False
+
+
+
+@app.route('/user')
+def user():
+    return render_template('User Manual.html')
+
+
 
 # Personality types HTML ROUTING
 # PURPLE
