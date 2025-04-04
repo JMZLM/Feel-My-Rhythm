@@ -151,9 +151,9 @@ emotion_to_search_term = {
 
 
 # Spotify API credentials
-CLIENT_ID = 'fdfcbb82df104a2ea67df35410eed1f6'
-CLIENT_SECRET = '3280a9e0b5804025bcff0d5367eec8eb'
-REDIRECT_URI = 'http://192.168.1.21:8080/callback'
+CLIENT_ID = os.getenv('CLIENT_ID')
+CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+REDIRECT_URI = os.getenv('REDIRECT_URI')
 
 # Spotify URLs
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
