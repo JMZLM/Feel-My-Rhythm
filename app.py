@@ -40,113 +40,113 @@ mbti_results = {
 # Emotion-to-genre mapping with MBTI pairings
 emotion_to_search_term = {
     "anger": {
-        "ESTJ": "explosive hip-hop, energetic beats, hardcore, energetic korean pop, aggressive Korean rap, hardcore Japanese hip-hop",
-        "ENTJ": "rock, metal, energetic, adrenaline, US rock, Japanese rock, Korean rock, unrelenting metal, intense Korean metal, brutal Japanese rock",
-        "ESFJ": "upbeat pop, energetic, upbeat Filipino pop, powerful Korean pop, intense Japanese dance pop",
-        "ENFJ": "rock, energetic pop, RnB, K-pop, explosive Filipino RnB, emotional Korean rock, dramatic Japanese RnB",
-        "ISTJ": "classic rock, oldies, hard rock, explosive US oldies, explosive Korean oldies, explosive Japanese oldies, intense Korean rock, fiery Japanese classic rock",
-        "ISFJ": "explosive classical, intense instrumental, distorted orchestral, dramatic Korean orchestral, aggressive Japanese symphonic rock",
-        "INTJ": "adrenaline rock, metal, intense beats, US metal, chaotic Korean industrial metal, dark Japanese progressive metal",
-        "INFJ": "grunge, unrelenting rock, aggressive Korean indie, aggressive Japanese indie, melancholic Korean post-rock, intense Japanese alternative",
-        "ESTP": "heavy metal, aggressive hip-hop, energetic, aggressive K-pop, hardcore Korean trap, violent Japanese rap",
-        "ESFP": "heavy pop punk, energetic dance, heavy rock, fast-paced Korean punk pop, rebellious Japanese dance rock",
-        "ENTP": "punk rock, aggressive energetic indie, aggressive Korean punk, aggressive Japanese punk, chaotic Korean underground rock, wild Japanese punk fusion",
-        "ENFP": "hard rock, gritty indie rock, aggressive beats, aggressive Filipino indie, explosive Korean garage rock, distorted Japanese alternative",
-        "ISTP": "heavy punk rock, unrelenting beats, distorted Japanese punk, raw Korean hardcore punk, aggressive Japanese thrash punk",
-        "ISFP": "aggressive punk, distorted pop, explosive Korean pop, rebellious Korean alt-pop, harsh Japanese electro-punk",
-        "INTP": "heavy rock, heavy metal, alternative, heavy US alternative, extreme Korean alternative rock, dystopian Japanese noise rock",
-        "INFP": "heavy alternative rock, unrelenting energetic indie, aggressive Korean rock, aggressive Japanese rock, emotional Korean emo rock, distorted Japanese dream punk"
-    },
-    "fear": {
-        "ESTJ": "dark ambient, industrial, eerie beats, K-pop with suspenseful undertones, Korean horror synth, Japanese horror synth",
-        "ENTJ": "synthwave, dark electronic, dystopian, Japanese industrial, Korean cyberpunk, aggressive Japanese horror synth",
-        "ESFJ": "ambient, unsettling instrumental, Filipino eerie instrumental, haunting Korean ballads, eerie Japanese lullabies",
-        "ENFJ": "ambient, haunting, suspenseful ballads, Korean dark ballads, cinematic horror scores, eerie Japanese folk",
-        "ISTJ": "classic dark rock, unsettling instrumental, US horror rock, ominous Korean retro rock, suspenseful Japanese noir rock",
-        "ISFJ": "orchestral, haunting classical, Japanese dark orchestral, unsettling Korean symphonic, eerie Western opera",
-        "INTJ": "dark ambient, lo-fi with horror elements, US lo-fi dark beats, eerie Korean electronic, unsettling Japanese glitch music",
-        "INFJ": "ambient, atmospheric tension, Filipino eerie ambient, deep Korean horror soundscapes, Japanese supernatural folk music",
-        "ESTP": "heavy industrial, experimental electronic, Japanese suspense beats, dark Korean cyber-metal, eerie rhythmic percussion",
-        "ESFP": "dark pop, eerie instrumental, Korean pop with tense melodies, experimental horror synth, ghostly Japanese dream pop",
-        "ENTP": "ethereal, unsettling electronic, Japanese darkwave, chaotic Korean experimental, dystopian Japanese noise pop",
-        "ENFP": "ambient, unsettling lo-fi, US experimental with dark tones, eerie Korean indie, haunting Japanese dreamwave",
-        "ISTP": "dark electronic, minimalistic beats, Filipino industrial, creepy Korean trap, ominous Japanese trip-hop",
-        "ISFP": "ethereal, haunting instrumental, K-pop with suspenseful vibes, ghostly Korean ballads, chilling Japanese neo-folk",
-        "INTP": "lo-fi with eerie undertones, Japanese ambient, dark lo-fi, abstract Korean horror beats, unsettling Japanese music",
-        "INFP": "dark instrumental, scary instrumental, dark acoustic, melancholic Korean post-rock, horror-inspired Japanese acoustic"
-    },
-    "happy": {
-        "ESTJ": "upbeat pop, energetic, US pop, high-energy K-pop, feel-good Korean pop, cheerful Japanese pop",
-        "ENTJ": "uplifting rock, high-energy metal, Japanese high-energy rock, positive US rock, energizing Korean rock",
-        "ESFJ": "energizing pop, upbeat dance, feel-good, Filipino dance pop, joyful Korean dance pop, positive Japanese electro-pop",
-        "ENFJ": "joyful RnB, energizing pop, energizing Korean pop, energizing US RnB, cheerful Filipino pop, vibrant Japanese pop",
-        "ISTJ": "uplifting classic rock, joyful upbeat oldies, cheerful US classic rock, lively Japanese rock, classic upbeat Korean rock",
-        "ISFJ": "uplifting pop, joyful acoustic, uplifting Filipino acoustic, gentle Korean acoustic, uplifting Japanese acoustic",
-        "INTJ": "energizing indie rock, upbeat beats, Japanese indie rock, energizing Korean indie, positive US indie rock",
-        "INFJ": "energizing indie pop, feel-good indie, Korean indie, uplifting Japanese indie, cheerful Filipino indie",
-        "ESTP": "energizing pop, energetic dance, energizing beats, energetic Filipino dance, energetic Korean dance, joyful Japanese pop",
-        "ESFP": "joyful dance pop, joyful upbeat music, fun US dance pop, fun Korean pop, vibrant Filipino pop",
-        "ENTP": "fun indie pop, energizing alternative rock, energizing Korean alternative, upbeat Japanese alternative, feel-good US indie",
-        "ENFP": "joyful funk, fun hip-hop, upbeat indie, joyful Filipino funk, energetic Korean pop, happy-go-lucky Japanese pop",
-        "ISTP": "energizing electronic, upbeat synth, Japanese electronic, lively Korean synth pop, happy Japanese electro",
-        "ISFP": "energizing indie acoustic, upbeat pop, fun US indie, joyful Filipino acoustic, cheerful K-pop",
-        "INTP": "energizing indie, fun alt-pop, chill beats, fun Filipino alt-pop, uplifting Korean indie, sunny Japanese alt-pop",
-        "INFP": "fun indie K-pop, happy Korean acoustic, energizing Japanese pop, uplifting Filipino pop, uplifting Japanese indie"
-    },
-    "sad": {
-        "ESTJ": "sorrowful instrumental, melancholic mellow jazz, grieving US jazz, sorrowful Korean jazz, melancholic Japanese jazz",
-        "ENTJ": "tragic ambient, desolate slow rock, Japanese melancholic ambient rock, sorrowful Korean rock",
-        "ESFJ": "heartbroken ballads, slow jazz, acoustic Filipino ballads with longing, melancholic Korean ballads, sorrowful Japanese ballads",
-        "ENFJ": "soulful blues, grieving, melancholic Korean soul, sorrowful Japanese soul",
-        "ISTJ": "classic rock, slow aching ballads, US tragic slow ballads, sorrowful Japanese classic rock, grieving Korean classic rock, Japanese slow ballads, Korean slow ballads",
-        "ISFJ": "sombre classical, heartbreaking instrumental, Japanese sorrowful classical, Korean emotional orchestral",
-        "INTJ": "ambient, sorrowful slow metal, desolate US slow metal, Japanese melancholic metal, sorrowful Korean metal",
-        "INFJ": "sad indie, melancholic alternative, Korean emotional indie with yearning, sorrowful Japanese indie",
-        "ESTP": "soft rock, melancholic chill beats, Japanese sorrowful soft rock, grieving Korean soft rock",
-        "ESFP": "acoustic, heartbreaking soft RnB, Filipino acoustic with grief, melancholic Korean acoustic, Japanese sorrowful RnB",
-        "ENTP": "sorrowful indie, US melancholic lo-fi, Korean lo-fi, Japanese melancholic indie",
-        "ENFP": "soft jazz, wistful lo-fi, Filipino melancholic jazz, sorrowful Korean jazz, Japanese jazzy melancholy",
-        "ISTP": "sorrowful soft rock, chill desolate instrumental, Japanese sorrowful instrumental, Korean melancholic instrumental",
-        "ISFP": "sorrowful blues, melancholic ambient acoustic, Filipino blues with longing, Japanese sorrowful blues, Korean melancholic blues",
-        "INTP": "tragic rock, sorrowful melancholic beats, US sad rock, Japanese sad rock, Korean melancholic rock",
-        "INFP": "heartbroken indie, acoustic, sorrowful Filipino indie, K-pop grieving ballads, Japanese melancholic indie, Korean sorrowful ballads"
-    },
-    "surprise": {
-        "ESTJ": "upbeat pop with unexpected rhythms, US experimental pop, surprising K-pop with shifting tempos, Japanese pop with sudden energy bursts",
-        "ENTJ": "electronic with chaotic surprise rhythms, Japanese glitch with unexpected soundscapes, thrilling experimental beats",
-        "ESFJ": "feel-good pop with unexpected surprises, Filipino pop with tempo shifts and sudden bursts, Korean pop with joyful twists",
-        "ENFJ": "RnB with shocking drops, K-pop with surprising tempo changes, unexpected mood swings in Korean pop",
-        "ISTJ": "classic rock with surprising rhythmic shifts, US experimental classic rock, unexpected tempo changes in Japanese classic rock",
-        "ISFJ": "soft classical with sudden orchestral surprises, Japanese classical with unexpected shifts in mood and tone",
-        "INTJ": "experimental with unpredictable electronic beats, US glitch and IDM with surprising sound transitions",
-        "INFJ": "indie experimental with sudden mood changes, Filipino avant-garde with unexpected transitions",
-        "ESTP": "hip-hop with surprise beat changes, K-pop trap with unpredictable rhythms, Korean rap with surprising twists",
-        "ESFP": "dance music with unexpected rhythms and tempo, Filipino EDM with shocking drops, Korean electronic with unexpected builds",
-        "ENTP": "punk with surprise twists, Japanese experimental punk with unpredictable beats, indie punk with shocking changes",
-        "ENFP": "indie with unexpected jazz melodies, Korean jazz fusion with surprising transitions, unexpected jazz shifts in US indie",
-        "ISTP": "electronic synth with abrupt beat changes, US synthwave with surprise tempo shifts, Japanese synth with sudden beats",
-        "ISFP": "ambient with unexpected melodies, Japanese post-rock with surprising musical builds, Filipino ambient with sudden changes",
-        "INTP": "electronic experimental beats with sudden changes, US IDM with unexpected rhythm shifts, Japanese IDM with surprising moments",
-        "INFP": "experimental indie with unpredictable melodies, Filipino indie with twists, Korean indie with unexpected mood changes"
-    },
-    "neutral": {
-        "ESTJ": "instrumental pop, chill, US instrumental pop, mellow K-pop instrumental, relaxed Japanese instrumental",
-        "ENTJ": "classical with instrumental beats, Japanese instrumental with a calming atmosphere, relaxed orchestral vibes",
-        "ESFJ": "easy listening pop, acoustic, Filipino easy listening, peaceful K-pop, soothing Japanese instrumental",
-        "ENFJ": "ambient pop with instrumental influences, Korean pop with a calm feel, neutral instrumental ballads",
-        "ISTJ": "classic rock with mellow tones, oldies, US oldies with a steady beat, classic Japanese rock with a neutral vibe",
-        "ISFJ": "soft classical, easy listening, Japanese soft classical with tranquil melodies, peaceful instrumental",
-        "INTJ": "chill instrumental, ambient, US chill instrumental with subtle tones, soothing Japanese ambient",
-        "INFJ": "indie acoustic, mellow, Filipino acoustic with calming guitar, peaceful K-pop indie",
-        "ESTP": "chill beats, pop with a relaxed vibe, Filipino chill beats with a laid-back tempo, smooth Korean beats",
-        "ESFP": "ambient, dance beats with a mellow feel, Korean dance with a relaxed tone, Filipino chill dance beats",
-        "ENTP": "indie with chill rock elements, Japanese chill rock with a soft beat, relaxed indie rock",
-        "ENFP": "indie pop, ambient, Filipino pop with a calm atmosphere, relaxed Korean pop with mellow vibes",
-        "ISTP": "instrumental electronic with subtle beats, Japanese electronic with a chill tone, smooth instrumental",
-        "ISFP": "chill ambient, indie, Filipino ambient with a soothing feel, Japanese ambient with relaxed melodies",
-        "INTP": "ambient instrumental rock with a mellow flow, US instrumental with neutral beats, Japanese instrumental with calm ambiance",
-        "INFP": "indie folk with a mellow atmosphere, Filipino folk with soothing melodies, Korean indie with a neutral vibe"
-    },
+    "ESTJ": "explosive filipino hip-hop, explosive japanese hip-hop, explosive korean hip-hop, explosive marching band, explosive filipino rock, explosive japanese rock, explosive korean rock",
+    "ENTJ": "explosive jazz, aggressive rock, aggressive filipino rock, aggressive japanese rock, aggressive korean rock", #explosive filipino jazz, explosive japanese jazz, explosive korean jazz
+    "ESFJ": "intense filipino pop, intense japanese pop, intense korean pop", #instense soul intense blue  intense filipino blues, intense japanese blues, intense korean blues
+    "ENFJ": "angry loud filipino pop, angry loud korean pop, angry loud japanese pop",
+    "ISTJ": "angry loud rock, angry loud japanese rock",
+    "ISFJ": "aggressive classical", # religious fury angry filipino classical
+    "INTJ": "aggressive korean metal, aggressive japanese metal, explosive metal, explosive rock, aggressive japanese rock",
+    "INFJ": "intense alternative rock, turbulent world, intense japanese alternative rock, intense korean alternative rock",
+    "ESTP": "intense japanese metal, intense korean rap, intense hip-hop, intense korean hip-hop, intense rap",
+    "ESFP": "angry loud japanese hip-hop, intense korean hip-hop, intense loud hip-hop,",
+    "ENTP": "aggressive alternative rock, angry punk, blazing japanese rock, blazing korean rock", #explosive filipino classical
+    "ENFP": "aggressive heavy electronica, aggressive heavy hip-hop, aggressive heavy funk",
+    "ISTP": "rebellious punk, rebellious filipino punk, rebellious japanese punk, rebellious korean punk",
+    "ISFP": "aggressive heavy metal, aggressive heavy japanese metal", #not reggae
+    "INTP": "angry punk, aggressive rock, explosive metal, angry filipino punk, angry japanese punk, angry korean punk, aggressive filipino rock, aggressive japanese rock, aggressive korean rock",
+    "INFP": "aggressive heavy japanese punk, aggressive heavy korean punk, aggressive heavy japanese rock, aggressive heavy korean rock"
+  },
+  "fear": {
+    "ESTJ": "horror synth",
+    "ENTJ": "frightening classical, frightening japanese classical, frightening jazz, dark jazz, dark classical", #eerie filipino jazz, eerie japanese jazz, eerie korean jazz eerie jazz frightening korean classical frightening filipino classical frightening electronica
+    "ESFJ": "horror blues, horror country, horror pop",
+    "ENFJ": "horror blues, horror rnb, horror soul",
+    "ISTJ": "horror synth", #not oldies or rock
+    "ISFJ": "haunting classical", #religious filipino tranquility
+    "INTJ": "haunting classical", # since adding other, like korean classic makes it recommend like ost
+    "INFJ": "horror synth",     #not one of the genre
+    "ESTP": "horror synth",
+    "ESFP": "dark ambient, eerie ambient, dark japanese ambient",
+    "ENTP": "gothic rock, japanese gothic rock",
+    "ENFP": "darkwave electro",
+    "ISTP": "haunting punk, haunting filipino punk, haunting japanese punk, haunting korean punk",
+    "ISFP": "dark ambient, eerie ambient, dark japanese ambient, dark korean ambient despair",
+    "INTP": "horror synth", # not rock metal punk
+    "INFP": "haunting punk, haunting filipino punk, haunting japanese punk, haunting korean punkx"
+  },
+  "happy": {
+    "ESTJ": "happy upbeat filipino hip-hop, happy upbeat japanese hip-hop, happy upbeat korean hip-hop, happy upbeat filipino rock, happy upbeat japanese rock, happy upbeat korean rock", #joyful patriotic, joyful marching band
+    "ENTJ": "happy upbeat japanese jazz, happy upbeat korean jazz, happy upbeat japanese rock, happy upbeat korean rock", #happy upbeat electronica  happy upbeat filipino classical happy upbeat filipino jazz
+    "ESFJ": "happy upbeat korean pop, happy upbeat japanese pop", #happy upbeat country happy upbeat blues
+    "ENFJ": "happy upbeat korean pop, happy upbeat japanese pop, happy upbeat filipino pop, happy upbeat jazz, happy upbeat country",
+    "ISTJ": "happy upbeat rock, happy upbeat korean rock, happy upbeat japanese rock",
+    "ISFJ": "cheerful classical, cheerful classical, cheerful classical",
+    "INTJ": "bright classical, bright japanese classical, bright japanese rock, bright korean rock",
+    "INFJ": "joyous alternative rock, indie freedom, joyous filipino alternative rock, joyous japanese alternative rock, joyous korean alternative rock",
+    "ESTP": "joyful hip-hop, joyful electronica, joyful filipino reggae, joyful japanese reggae, joyful korean reggae",
+    "ESFP": "cheerful japanese pop, cheerful korean pop, cheerful japanese dance",
+    "ENTP": "happy pop rock, joyful techno, happy japanese pop rock, happy korean pop rock",
+    "ENFP": "joyful jazz, happy world, bright electronica, joyful funk",
+    "ISTP": "cheerful punk, cheerful filipino punk, cheerful japanese punk, cheerful korean punk",
+    "ISFP": "cheerful pop, cheerful filipino reggae, cheerful filipino pop, cheerful japanese pop, cheerful korean pop",
+    "INTP": "cheerful punk, bright rock, cheerful metal, cheerful filipino punk, cheerful japanese punk, cheerful korean punk, bright filipino rock, bright japanese rock, bright korean rock",
+    "INFP": "cheerful acoustic, cheerful pop, cheerful kpop, cheerful jpop" #added pop
+  },
+  "sad": {
+    "ESTJ": "sad japanese hip-hop, sad korean hip-hop, sad japanese rock, sad korean rock", #sad filipino hip-hop melancholic patriotic, marching band despair  sad filipino rock
+    "ENTJ": "sad classical, sad japanese rock, sad Korean rock", #jazz, eletronica, rock
+    "ESFJ": "melancholic pop, sad blues, soulful sorrow, country heartbreak,sad korean blues",
+    "ENFJ": "sad korean blues, sad japanese rnb, soulful sorrow, sad blues, sad korean pop ost",
+    "ISTJ": "sad rock, melancholic oldies, sad japanese rock, sad korean rock",
+    "ISFJ": "classical sorrow, religious mourning, sad japanese classical, sad korean classical",
+    "INTJ": "sad classical, sad japanese classical, sad korean classical",
+    "INFJ": "melancholic alternative rock, world of sadness, melancholic filipino alternative rock, melancholic japanese alternative rock, melancholic korean alternative rock",
+    "ESTP": "sad classical, sad japanese classical, sad korean classical", #not hiphop or metal or rap
+    "ESFP": "sad pop, ambient sorrow, melancholic blues, sad japanese pop, sad korean pop",
+    "ENTP": "sad melancholic classical, tragic classical piano",
+    "ENFP": "sad jazz, melancholy ambient, mournful blues, sad korean blues",
+    "ISTP": "sad melancholic punk, sad melancholic korean punk",
+    "ISFP": "sad pop, sad melancholic korean pop, sad japanese melancholic pop",
+    "INTP": "melancholic punk, melancholic rock, melancholic metal, melancholic japanese punk, melancholic korean punk, melancholic filipino rock, melancholic japanese rock, melancholic korean rock",
+    "INFP": "sad melancholic punk, sad japanese punk, sad korean punk, melancholic japanese rock, melancholic korean rock"
+  },
+  "surprise": {
+    "ESTJ": "unexpected rhythm filipino hip-hop, unexpected rhythm japanese hip-hop, unexpected rhythm korean hip-hop, unexpected rhythm marching band, unexpected rhythm filipino rock, unexpected rhythm japanese rock, unexpected rhythm korean rock",
+    "ENTJ": "unexpected rhythm japanese jazz, unexpected rhythm korean jazz, unexpected rhythm japanese classical, unexpected rhythm korean classical, unexpected rhythm rock",
+    "ESFJ": "unconventional rhythm korean pop, unconventional rhythm japanese pop, unconventional rhythm japanese blues, jarring rhythm korean blues",
+    "ENFJ": "unexpected rhythm filipino jazz, unexpected rhythm japanese jazz, unexpected rhythm korean jazz, unexpected rhythm pop, unexpected rhythm world",
+    "ISTJ": "unexpected rhythm filipino classic rock, unexpected rhythm japanese classic rock, unexpected rhythm korean classic rock, unexpected rhythm intriguing oldies",
+    "ISFJ": "unexpected rhythm japanese classical, unexpected rhythm korean classical, unexpected rhythm tranquil wonder",
+    "INTJ": "unexpected rhythm japanese classical, unexpected rhythm korean classical, unexpected rhythm filipino rock, unexpected rhythm japanese rock, unexpected rhythm korean rock, unexpected rhythm metal",
+    "INFJ": "unexpected rhythm filipino alternative rock, unexpected rhythm japanese alternative rock, unexpected rhythm korean alternative rock, unexpected rhythm indie",
+    "ESTP": "unexpected rhythm filipino reggae, unexpected rhythm japanese reggae, unexpected rhythm korean reggae, unexpected rhythm filipino metal, unexpected rhythm japanese metal, unexpected rhythm korean metal, unexpected rhythm filipino hip-hop, unexpected rhythm japanese hip-hop, unexpected rhythm korean hip-hop, unexpected rhythm rap",
+    "ESFP": "unexpected rhythm japanese pop, unexpected rhythm korean pop, unexpected rhythm filipino ambient, unexpected rhythm japanese ambient, unexpected rhythm korean ambient, unexpected rhythm surprised joy",
+    "ENTP": "unexpected rhythm japanese classical, unexpected rhythm korean classical, unexpected rhythm japanese rock, unexpected rhythm korean rock, unexpected rhythm punk",
+    "ENFP": "unexpected rhythm filipino jazz, unexpected rhythm japanese jazz, unexpected rhythm korean jazz, unexpected rhythm filipino ambient, unexpected rhythm japanese ambient, unexpected rhythm korean ambient, unexpected rhythm electronica, unexpected rhythm filipino blues, unexpected rhythm japanese blues, unexpected rhythm korean blues",
+    "ISTP": "unexpected rhythm filipino punk, unexpected rhythm japanese punk, unexpected rhythm korean punk",
+    "ISFP": "unexpected rhythm filipino reggae, unexpected rhythm japanese reggae, unexpected rhythm korean reggae, unexpected rhythm filipino pop, unexpected rhythm japanese pop, unexpected rhythm korean pop, unexpected rhythm ambient surprise",
+    "INTP": "unexpected rhythm filipino punk, unexpected rhythm japanese punk, unexpected rhythm korean punk, unexpected rhythm filipino rock, unexpected rhythm japanese rock, unexpected rhythm korean rock, unexpected rhythm metal",
+    "INFP": "unexpected rhythm filipino punk, unexpected rhythm japanese punk, unexpected rhythm korean punk, unexpected rhythm filipino rock, unexpected rhythm japanese rock, unexpected rhythm korean rock, unexpected rhythm alternative rock"
+  },
+  "neutral": {
+    "ESTJ": "calm filipino hip-hop, neutral japanese hip-hop, neutral korean hip-hop, neutral marching band, calm filipino rock, neutral japanese rock, neutral korean rock",
+    "ENTJ": "neutral jazz, neutral classical, smooth japanese jazz, smooth korean jazz, neutral filipino classical, neutral japanese classical, neutral korean classical",#neutral electronica
+    "ESFJ": "calm pop, smooth blues, neutral soulful, calm filipino pop, calm japanese pop, calm korean pop, smooth filipino blues, smooth japanese blues, smooth korean blues",
+    "ENFJ": "smooth jazz, calm blues, calm world, calm pop",
+    "ISTJ": "neutral classic rock, smooth oldies, calm filipino classic rock, calm japanese classic rock, calm korean classic rock",
+    "ISFJ": "smooth classical, peaceful wonder, neutral filipino classical, neutral japanese classical, neutral korean classical",
+    "INTJ": "calm classical, smooth rock, neutral metal, smooth japanese classical, smooth korean classical, neutral japanese rock, neutral korean rock",
+    "INFJ": "neutral japanese alternative rock, neutral korean alternative rock",
+    "ESTP": "neutral reggae, neutral metal, calm hip-hop, smooth rap, neutral filipino reggae, neutral japanese reggae, neutral korean reggae, calm filipino metal, calm japanese metal, calm korean metal",
+    "ESFP": "calm pop, peaceful ambient, neutral joy, calm filipino pop, calm japanese pop, calm korean pop, peaceful filipino ambient, peaceful japanese ambient, peaceful korean ambient",
+    "ENTP": "smooth classical, chill rock, smooth punk, chill japanese classical, chill korean classical, smooth filipino rock, smooth japanese rock, smooth korean rock",
+    "ENFP": "calm jazz, peaceful ambient, smooth electronica, neutral blues, neutral hip-hop, calm filipino jazz, calm japanese jazz, calm korean jazz, peaceful filipino ambient, peaceful japanese ambient, peaceful korean ambient",
+    "ISTP": "smooth calm punk, smooth calm japanese punk, smooth calm korean punk",
+    "ISFP": "ambient calm, smooth pop, ambient filipino calm, ambient japanese calm, ambient korean calm",
+    "INTP": "neutral punk, smooth rock, calm japanese metal, calm korean punk",
+    "INFP": "neutral punk, calm acoustic, calm japanese acoustic, calm korena acoustic"
+  }
 }
 
 
@@ -348,60 +348,66 @@ def upload_image():
 def fetch_songs_for_emotion(emotion, personality_type, access_token):
     headers = {'Authorization': f"Bearer {access_token}"}
 
-    # Fallback to "chill vibes" if emotion is not mapped
-    search_terms = emotion_to_search_term.get(emotion, {}).get(personality_type, "chill vibes")
+    full_search_terms = emotion_to_search_term.get(emotion, {}).get(personality_type, "chill vibes")
+    individual_terms = [term.strip() for term in full_search_terms.split(',')]
 
-    print(f"Fetching songs for emotion '{emotion}' and MBTI '{personality_type}': {search_terms}")  # Debugging
+    # Pick 3 unique random terms
+    random_terms = random.sample(individual_terms, min(5, len(individual_terms)))
+    print(f"Selected search terms: {random_terms}")
 
-    # Define search parameters
-    params = {
-        'q': search_terms,  # Use a comma-separated list of terms for broader results
-        'type': 'track',
-        'limit': 50,  # MAX LIMIT FOR SPOTIFY API
-        'market': 'US, PH, JP,KR'  # Include the markets (US, Philippines, Japan, Korea)
-    }
+    all_tracks = []
 
-    # Perform the search
-    response = requests.get(f"{SPOTIFY_API_BASE_URL}/search", headers=headers, params=params)
+    for term in random_terms:
+        params = {
+            'q': term,
+            'type': 'track',
+            'limit': 9,  # lower per search to keep total around 45
+       #     'market': 'US'  # Adjust if needed
+        }
 
-    if response.status_code == 200:
-        tracks = response.json().get('tracks', {}).get('items', [])
-        print(f"Found {len(tracks)} tracks for search terms: {search_terms}")  # Debugging
-        if not tracks:
-            print(f"No results found for search terms: {search_terms}")
-            return []
+        response = requests.get(f"{SPOTIFY_API_BASE_URL}/search", headers=headers, params=params)
+        if response.status_code == 200:
+            tracks = response.json().get('tracks', {}).get('items', [])
+            all_tracks.extend(tracks)
+        else:
+            print(f"Error for term '{term}': {response.status_code} - {response.text}")
 
-        # Sort tracks by popularity (highest first)
-        sorted_tracks = sorted(tracks, key=lambda x: x['popularity'], reverse=True)
+    print(f"Fetched {len(all_tracks)} raw tracks from all terms.")
 
-        # Select top 3 popular tracks
-        top_tracks = sorted_tracks[:3]
+    # Exclude unwanted artists
+    excluded_keywords = ['upbeat', 'kids', 'uplifting', 'melodality', 'uniquesound', 'commentary', 'audiosphere', 'morninglightmusic', 'david schweitzer',
+                         'tropical depression', 'masayuki suzuki', 'kanye west', 'biv', 'lullaby', 'romansenykmusic', 'junai kaden', 'sound ideas',
+                         'rapunzel asmr', 'arjun', 'tubero', 'new politics', 'fishbone', 'bass boosted hd', 'boyinaband', 'gilang sadewa', 'the bangles',
+                         'burnett and pentek', 'barbara cook', 'mido', 'nepsydaz']
+    filtered_tracks = [
+        track for track in all_tracks
+        if not any(
+            keyword in artist['name'].lower()
+            for artist in track['artists']
+            for keyword in excluded_keywords
+        )
+    ]
 
-        # The remaining tracks will be chosen randomly from the rest
-        remaining_tracks = sorted_tracks[3:]
-        random.shuffle(remaining_tracks)
+    # Deduplicate by track ID
+    unique_tracks = {track['id']: track for track in filtered_tracks}.values()
 
-        # This will give you a mix of the top 3 most popular tracks based on your search terms
-        # and 3 random songs selected from the rest of the search results.
+    # Sort by popularity
+    sorted_tracks = sorted(unique_tracks, key=lambda x: x['popularity'], reverse=True)
 
-        # Combine top tracks and random tracks
-        final_tracks = top_tracks + remaining_tracks
+    # Shuffle a bit for variety
+    random.shuffle(sorted_tracks)
 
-        # Extract essential track details
-        return [
-            {
-                'id': track['id'],
-                'name': track['name'],
-                'artist': track['artists'][0]['name'],
-                'album': track['album']['name'],
-                'cover_url': track['album']['images'][0]['url'] if track['album']['images'] else '',
-                'popularity': track['popularity']
-            }
-            for track in final_tracks
-        ]
-    else:
-        print(f"Error fetching songs for {emotion}: {response.status_code} - {response.text}")
-        return []
+    return [
+        {
+            'id': track['id'],
+            'name': track['name'],
+            'artist': track['artists'][0]['name'],
+            'album': track['album']['name'],
+            'cover_url': track['album']['images'][0]['url'] if track['album']['images'] else '',
+            'popularity': track['popularity']
+        }
+        for track in sorted_tracks
+    ]
 
 
 
